@@ -17,23 +17,19 @@
 <body>
 
   <header>
-
-    <div class="header-superior">
-
+    <div class="header-superior"> 
       <div class="contenedor-header">
-
         <a href="#" class="header-logo">
           <img src="Recursos/Imágenes/_318119472.png" alt="logoAndina" width="100" height="40">
         </a>
 
         <div class="header-barrabusqueda">
-          <span class="Tcategorias_texto">Todas las categorias <i class="fa-solid fa-angle-down"></i></span>
+          <span class="Tcategorias_texto">Todas las categorias <i class="fas_angle fa-solid fa-angle-down"></i></span>
           <input type="busqueda" name="busqueda" class="barra-busqueda" placeholder="¿Que estás buscando hoy?">
-          <button class="boton-busqueda" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <button class="boton-busqueda" type="submit"><i class="fas_glass fa-solid fa-magnifying-glass"></i></button>
         </div>
 
         <div class="header-botones">
-
           <button class="Botones-adicionales">
             <i class="icon_nav fa-solid fa-helmet-safety"></i>
           </button>
@@ -46,47 +42,40 @@
             <i class="icon_nav fa-solid fa-cart-shopping"></i>
           </button>
         </div>
-
       </div>
-
     </div>
 
     <nav class="menu-navbar">
+      <ul class="menu-lista">
+        <li class="menu-nav-item">
+          <a href="#" class="link-inicio menu-nav-link">INICIO</a>
+        </li>
 
-      <div class="contenedor">
+        <li class="menu-nav-item">
+          <a href="#" class="link-nuevo menu-nav-link">NUEVO</a>
+        </li>
 
-        <ul class="menu-lista">
+        <li class="menu-nav-item">
+          <a href="#" class="menu-nav-link">SOLO POR HOY</a>
+        </li>
 
-          <li class="menu-categoria">
-            <a href="#" class="titulo_nav">INICIO</a>
-            <a href="#" class="titulo_nav-nuevo">NUEVO</a>
-            <a href="#" class="titulo_nav">SOLO POR HOY</a>
-            <a href="#" class="titulo_nav-ofertas">OFERTAS%</a>
-            <a href="#" class="titulo_nav">BLOG</a>
-            <a href="#" class="titulo_nav">CONTÁCTENOS</a>
-          </li>
+        <li class="menu-nav-item">
+          <a href="#" class="menu-nav-link">OFERTAS&#37;</a>
+        </li>
 
+        <li class="menu-nav-item">
+          <a href="#" class="menu-nav-link">BLOG</a>
+        </li>
 
-        </ul>
-
-
-      </div>
+        <li class="menu-nav-item">
+          <a href="#Contacto" class="menu-nav-link">CONT&aacute;CTENOS</a>
+        </li>
+      </ul>
     </nav>
-
   </header>
-
-
-  <!--
-    - MAIN
-  -->
-
+  <!-- MAIN -->
   <main>
-
-
-    <!--
-      - SLIDER
-    -->
-
+    <!-- SLIDER -->
     <div id="content-item-carrusel">
 
       <div class="item-carrusel" id="item-carrusel-1">
@@ -137,13 +126,7 @@
       </div>
 
     </div>
-
-
-
-    <!--
-      - SECTION
-    -->
-
+    <!-- SECTION -->
     <div class="productos-main">
 
       <img src="Recursos/Imágenes/Group 1508.png" alt="credito" class="credito-img">
@@ -318,58 +301,68 @@
 
 
     </div>
-
-   
-
-    
-
-
-    <!--
-      - SLIDER 2
-    -->
-
-
+    <!-- SLIDER 2 -->
   </main>
+  <!-- Contact -->
+  <section id="Contacto">
+    <div class="Contacto">
+      <h3>Suscríbete a nuestro boletín</h3>
 
+      <div class="contact">
+        <form action="">
+          <input type="Interes" id="interes" name="Interes" placeholder="Escoge tu interés">
+      
+          <input type="Name" name="Name" placeholder="Nombre">
+          <input type="Apellido" name="Apellido" placeholder="Apellido">
 
-  <!--
-    - FOOTER
-  -->
+          <input type="email" name="email" placeholder="Escribe tu correo electrónico">
+          
+          <input type="submit" value="Subscribe">
 
+          <div class="valides">
+            <input id="Validation" type="checkbox" name="color" value="" required=""> 
+            <p>Acepto los <b>Términos y condiciones</b> y la <b>Política de tratamiento de datos.</b></p>
+          </div>
+          
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+        
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER -->
   <footer>
-
     <div class="footer-nav">
-
       <div class="footer-contenedor">
-
         <ul class="footer-nav-lista">
-
           <li class="footer-nav-item">
             <h2 class="nav-titulo">CONTÁCTANOS</h2>
 
           <li class="footer-nav-item flex">
-              <h3 class="content">Contactate con uno de nuestros asesores o visitanos en nuestras tiendas.
-                Con gusto te atenderemos</h3>
+            <p class="content">Contactate con uno de nuestros asesores o visitanos en nuestras tiendas.
+              Con gusto te atenderemos</p>
           </li>
 
-          <li class="footer-nav-item flex">
+          <li class="footer-nav-item flex footer-information">
             <div class="icon-box">
               <i class="fa-solid fa-location-dot"></i>
             </div>
 
             <address class="content">
               <h3 class="nav-subtitulo"><b>Pasto</b></h3>
-              Calle 12 N° 13-06
-              Calle 18 N° 19-35
+              <p> Calle 12 N° 13-06 </p>
+              <p> Calle 18 N° 19-35 </p>
 
               <h3 class="nav-subtitulo"><b>Ipiales</b></h3>
-              Carrera 5 N° 22-70
-
-
+              <p> Carrera 5 N° 22-70 </p> 
             </address>
           </li>
 
-          <li class="footer-nav-item flex">
+          <li class="footer-nav-item flex footer-information">
             <div class="icon-box">
               <i class="fa-solid fa-phone"></i>
             </div>
@@ -379,7 +372,8 @@
               <p class="nav-subtitulo"><b>Ipiales:</b>310 596 2851</p>
             </address>
           </li>
-          <li class="footer-nav-item flex">
+
+          <li class="footer-nav-item flex footer-information">
             <div class="icon-box">
               <i class="fa-solid fa-envelope"></i>
             </div>
@@ -388,12 +382,9 @@
               <p class="direccion-email">comercio@casaandina.com.co</p>
             </address>
           </li>
-
-
         </ul>
 
         <ul class="footer-nav-lista">
-
           <li class="footer-nav-item">
             <h2 class="nav-titulo">SOBRE NOSOTROS</h2>
           </li>
@@ -421,11 +412,9 @@
           <li class="footer-nav-item">
             <a href="#" class="footer-nav-link">Trabaja con nosotros</a>
           </li>
-
         </ul>
 
         <ul class="footer-nav-lista">
-
           <li class="footer-nav-item">
             <h2 class="nav-titulo">SERVICIO AL CLIENTE</h2>
           </li>
@@ -449,10 +438,9 @@
           <li class="footer-nav-item">
             <a href="#" class="footer-nav-link">Contáctanos</a>
           </li>
-
         </ul>
-        <ul class="footer-nav-lista">
 
+        <ul class="footer-nav-lista">
           <li class="footer-nav-item">
             <h2 class="nav-titulo">DESCUBRE</h2>
           </li>
@@ -476,67 +464,58 @@
           <li class="footer-nav-item">
             <a href="#" class="footer-nav-link">Eventos</a>
           </li>
-
         </ul>
 
         <ul class="footer-nav-lista-social">
-
           <li>
             <ul class="social-link">
 
               <li class="footer-nav-item" id="icon-footer">
-                <a href="#" class="footer-nav-link">
+                <a href="#" class="social-nav-link footer-nav-link">
                   <i class="fa-brands fa-facebook"></i>
                 </a>
               </li>
 
               <li class="footer-nav-item" id="icon-footer">
-                <a href="#" class="footer-nav-link">
+                <a href="#" class="social-nav-link footer-nav-link">
                   <i class="fa-brands fa-twitter"></i>
                 </a>
               </li>
 
 
               <li class="footer-nav-item" id="icon-footer">
-                <a href="#" class="footer-nav-link">
+                <a href="#" class="social-nav-link footer-nav-link">
                   <i class="fa-brands fa-instagram"></i>
                 </a>
               </li>
 
               <li class="footer-nav-item" id="icon-footer">
-                <a href="#" class="footer-nav-link">
+                <a href="#" class="social-nav-link footer-nav-link">
                   <i class="fa-brands fa-linkedin-in"></i>
                 </a>
               </li>
+
               <li class="footer-nav-item" id="icon-footer">
-                <a href="#" class="footer-nav-link">
+                <a href="#" class="social-nav-link footer-nav-link">
                   <i class="fa-brands fa-youtube"></i>
                 </a>
               </li>
 
             </ul>
           </li>
-
         </ul>
-
       </div>
-
     </div>
 
     <div class="footer-bottom">
-
       <div class="footer-bottom-contenedor">
-
         <p class="copyright">
-          Casa Andina | Soluciones para construir y remodelar</p>
-          
-
+          Casa Andina | Soluciones para construir y remodelar
+        </p>
       </div>
-
     </div>
-
-
   </footer>
+
 </body>
 
 </html>

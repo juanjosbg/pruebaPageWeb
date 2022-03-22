@@ -1,0 +1,17 @@
+Cosas Eliminadas 
+* en la parte de .menu-categoria .titulo_nav-nuevo {
+   se elimino font-style: none;
+ }
+
+
+Cosas cambiadas 
+
+Cosas agregadas
+
+* se agrego un estilo de letra global en 
+h1,h2,h3,h4,h5,p {
+  font-family: 'Montserrat';
+}
+
+* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+se importa la tipografia
