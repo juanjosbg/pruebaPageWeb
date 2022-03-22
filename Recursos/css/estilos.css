@@ -1,29 +1,18 @@
-
-
-/**
-   * RESET
-   */
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
-
-
-/**
-   * Tipografia
-   */
-
-a { text-decoration: none; }
-
+/*-----------------------------------*\
+/* Tipografia */
+a { 
+  text-decoration: none; 
+}
 
 #icon-slider{
   color: #000;
   background-color: rgb(221, 221, 40);
-  
 }
 
 a .titulo_navbar{
@@ -50,8 +39,7 @@ li { list-style: none; }
 
 
 /*-----------------------------------*\
-  #HEADER
-\*-----------------------------------*/
+\* HEADER */
 
 .header-superior {
     background-color: black;
@@ -75,11 +63,11 @@ li { list-style: none; }
     align-items: center;
 }
 
- .header-barrabusqueda .Tcategorias_texto{
+.header-barrabusqueda .Tcategorias_texto{
   text-align: center;
   margin: 15px;
   width: 40%;
- }
+}
 
 .header-botones{
   display: flex;
@@ -87,23 +75,25 @@ li { list-style: none; }
   height: 40px;
 }
 
- .barra-busqueda{
+.barra-busqueda{
   width: 60%;
   height: 100%;
   border: none;
   font-weight: bold;
- }
+}
 
- .boton-busqueda{
+.boton-busqueda {
   height: 100%;
-  background: #ffcc3375;
+  background: #ffe900;
   width: 50px;
   border-radius: 0px 5px 5px 0px;
+  border: none;
 }
 
 .Botones-adicionales{
 font-size: 30px;
 }
+
 /*-----------------------------------*\
   #NAVBAR
 \*-----------------------------------*/
